@@ -1,8 +1,7 @@
 // Contact for questions, bug reports, suggestions:
-// Email:   umut91c@gmail.com
-// Discord: cremefresh55#1208
+// Email:   queimail@gmail.com
 
-//Version 2.3
+//Version 2.4
 //GOAL: For a new universe or a new colony we want to build in perfect order
 
 //NOTE: At any giving point the new step value will be printed! 
@@ -34,8 +33,8 @@ shipyard = [30,32]
 lab = [29]
 
 //Research 
-energy = [36]
-combustion = [37,41]
+energy = []
+combustion = []
 computer = []
 laser = []
 espionage = []
@@ -43,9 +42,9 @@ impuls = []
 astro =[]
 
 //Ships
-smallcargo = [42]
+smallcargo = [50]
 eprobes =[]
-coloship =[]
+coloship =[1]
 
 
 //__________________DONT WORRY ABOUT THE PART BELOW_____________________________
@@ -433,3 +432,7 @@ for{
        }
     }
 }
+
+// Special Thanks for the inital Release from:
+// Email:   umut91c@gmail.com
+// Discord: cremefresh55#1208

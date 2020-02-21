@@ -1,8 +1,7 @@
 // Contact for questions, bug reports, suggestions:
-// Email:   umut91c@gmail.com
-// Discord: cremefresh55#1208
+// Email:   queimail@gmail.com
 
-//Version 1.2
+//Version 1.3
 
 //Goal: Auto build def again after getting attacked
 
@@ -19,15 +18,15 @@ factors = [1 , 2 ,1 ,0 ,1 ,1 ,1] // Example for 7 Planets , if you dont want to 
 //build twice the amount you setup below. Planet 4 will build no defence.
 
 // Here you set the ratio of the defences to be build (change number to your liking)
-rocket_launcher_desired = 10
-light_laser_desired= 50
-heavy_laser_desired= 20
-gauss_cannon_desired= 5
-ion_cannon_desired=  10
-plasma_desired= 1
-anti_balistic_desired = 2
+rocket_launcher_desired = 25000
+light_laser_desired= 25000
+heavy_laser_desired= 5000
+gauss_cannon_desired= 1000
+ion_cannon_desired=  0
+plasma_desired= 500
+anti_balistic_desired = 50
 
-checkInterval = 5 // Check every 5 min -- also change this to your liking, but 5 min is fine, if not to low
+checkInterval = 240 // Check every 4 hour -- also change this to your liking, but 5 min is fine, if not to low
 // SETTINGS DONE----------------------------------------------------------------
 
 Planets = GetPlanets()
@@ -79,3 +78,7 @@ for{
     }
    Sleep(checkInterval * 60 * 1000) 
 }
+
+// Special Thanks for the inital Release from:
+// Email:   umut91c@gmail.com
+// Discord: cremefresh55#1208
